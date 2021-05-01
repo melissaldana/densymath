@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "255652333548",
+    "project_id": "densymath",
+    "storage_bucket": "densymath.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:255652333548:android:41299c63bff3286f6a22c9",
+        "android_client_info": {
+          "package_name": "com.example.densymath"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "255652333548-s7a6qbqc90ndltmhhjm83lnvtaoc54jg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFjHTLBMOJeVkI4QvXgsT9Tf0UEoePG1o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "255652333548-s7a6qbqc90ndltmhhjm83lnvtaoc54jg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

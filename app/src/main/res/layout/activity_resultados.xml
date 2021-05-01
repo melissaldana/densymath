@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Resultados">
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="417dp"
+        android:layout_height="739dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/dec39e165b9b1bf47d54bfa50fc5cbfb" />
+
+    <TextView
+        android:id="@+id/txtResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="60dp"
+        android:text="G.E."
+        android:textColor="#EDEBEB"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/txtgravedad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="63dp"
+        android:textColor="#F8F3F3"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@+id/txtResultado"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    <TextView
+        android:id="@+id/txtResultado3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="80dp"
+        android:text="BBLS/TM"
+        android:textColor="#FAF6F6"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtResultado" />
+
+    <TextView
+        android:id="@+id/txtbarril"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="84dp"
+        android:textColor="#F4F1F1"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@+id/txtResultado3"
+        app:layout_constraintTop_toBottomOf="@+id/txtgravedad" />
+
+    <TextView
+        android:id="@+id/txtResultado5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="80dp"
+        android:text="LBS/GALÓN"
+        android:textColor="#F4F0F0"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="@+id/imageView13"
+        app:layout_constraintTop_toBottomOf="@+id/txtResultado3" />
+
+    <TextView
+        android:id="@+id/txtgalon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="83dp"
+        android:textColor="#F4EFEF"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@+id/txtResultado5"
+        app:layout_constraintTop_toBottomOf="@+id/txtbarril" />
+
+    <TextView
+        android:id="@+id/txtResultado7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="80dp"
+        android:text="KG/M3"
+        android:textColor="#F6F0F0"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtResultado5" />
+
+    <TextView
+        android:id="@+id/txtkilo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="80dp"
+        android:textColor="#F3F0F0"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toEndOf="@+id/txtResultado7"
+        app:layout_constraintTop_toBottomOf="@+id/txtgalon" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Densidad en diferentes unidades"
+        android:textColor="#F4F2F2"
+        android:textSize="22sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

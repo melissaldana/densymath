@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Contenedor3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuPrincipal">
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="739dp"
+        android:layout_height="413dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/fondo_alrevez" />
+
+    <com.hitomi.cmlibrary.CircleMenu
+        android:id="@+id/cicle_menu"
+        android:layout_width="257dp"
+        android:layout_height="306dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.814"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.847" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="70dp"
+        android:text="DensyMath"
+        android:textColor="#F8F4F4"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="30dp"
+        android:background="#070707"
+        android:text="CALCULAR"
+        android:textColor="#F4F3F3"
+        android:textStyle="bold|italic"
+        app:backgroundTint="#0E0E0E"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtapi" />
+
+    <EditText
+        android:id="@+id/txtapi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="30dp"
+        android:ems="10"
+        android:hint="API"
+        android:inputType="number"
+        android:textColorHint="#F6F1F1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
